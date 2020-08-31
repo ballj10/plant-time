@@ -40,11 +40,10 @@
         android:id="@+id/editPlantType"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="72dp"
         android:dropDownWidth="match_parent"
-        android:entries="red, blue, green"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toTopOf="@+id/editPlantSpecies"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +70,11 @@
         android:id="@+id/editDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="93dp"
         android:text="Done"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="590dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
